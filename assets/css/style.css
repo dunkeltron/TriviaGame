@@ -1,0 +1,79 @@
+#trivia-panel{
+    width: 80%;
+    background-color:#f7db5d;
+    height:660px;
+    margin-top:15px;
+    margin-left:10%;
+}
+#title-bar{
+    position: relative;
+    width:100%;
+    top:50px;
+    font-size: 56px;
+    text-align: center;
+    margin:0px;
+}
+#empty{
+    width:100%;
+    height:20px;
+    background-color:red;
+    visibility:hidden;
+}
+#start-game-block{
+    width:100%;
+    position: relative;
+    top:300px;
+}
+#start-game-banner{
+    width:60%;
+    font-size:24px;
+    margin-left:20%;
+    border:2px solid blue;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 15px;
+}
+#game-over-block{
+    position: relative;
+    top:200px;
+    width:60%;
+    font-size:24px;
+    margin-left:20%;
+    text-align: center;
+    
+}
+#start-over{
+    margin-top:15px;
+    border-radius: 15px;
+}
+#start-over:hover{
+    
+    border:2px solid blue;
+    background-color: whitesmoke;
+}
+#question-block{
+    background-color: yellowgreen; 
+    position:relative;
+    top:100px;
+    width:100%;
+    font-size:24px;
+    text-align: center;
+}
+#timer-question-spacer{
+    height:15px;
+}
+#question-banner{
+    margin-bottom:25px;
+}
+.answer{
+    margin-bottom:5px;
+    width:60%;
+    margin-left:20%;
+}
+.answer:hover{
+    border:2px solid blue;
+    background-color: whitesmoke;
+}
+body{
+    background-color: lightgrey;
+}
