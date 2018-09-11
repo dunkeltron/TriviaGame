@@ -55,15 +55,16 @@
     background-color: yellowgreen; 
     position:relative;
     top:100px;
-    width:100%;
+    width:98%;
+    margin-left:1%;
     font-size:24px;
     text-align: center;
+    border-radius: 15px;
 }
-#timer-question-spacer{
-    height:15px;
-}
+
 #question-banner{
     margin-bottom:25px;
+    margin-top:25px;
 }
 .answer{
     margin-bottom:5px;
