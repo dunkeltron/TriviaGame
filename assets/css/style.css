@@ -1,9 +1,13 @@
+body{
+    background-color: lightgrey;
+}
 #trivia-panel{
     width: 80%;
     background-color:#f7db5d;
-    height:660px;
+    height:auto;
     margin-top:15px;
     margin-left:10%;
+    padding-bottom:100px;
 }
 #title-bar{
     position: relative;
@@ -13,16 +17,13 @@
     text-align: center;
     margin:0px;
 }
-#empty{
-    width:100%;
-    height:20px;
-    background-color:red;
-    visibility:hidden;
+#content-block{
+    height:auto;
 }
 #start-game-block{
     width:100%;
     position: relative;
-    top:300px;
+    top:75px;
 }
 #start-game-banner{
     width:60%;
@@ -35,26 +36,18 @@
 }
 #game-over-block{
     position: relative;
-    top:200px;
+    top:100px;
     width:60%;
     font-size:24px;
     margin-left:20%;
     text-align: center;
     
 }
-#start-over{
-    margin-top:15px;
-    border-radius: 15px;
-}
-#start-over:hover{
-    
-    border:2px solid blue;
-    background-color: whitesmoke;
-}
+
 #question-block{
     background-color: yellowgreen; 
     position:relative;
-    top:100px;
+    top:50px;
     width:98%;
     margin-left:1%;
     font-size:24px;
@@ -75,6 +68,42 @@
     border:2px solid blue;
     background-color: whitesmoke;
 }
-body{
-    background-color: lightgrey;
+#correct-img{
+    position: relative; 
+    width:400px;
+    height:auto;
+}
+
+.start{
+    margin-bottom:5px;
+    width:60%;
+    margin-left:20%;
+}
+.start:hover{
+    border:2px solid purple;
+    background-color: whitesmoke;
+    color: purple;
+}
+.restart:hover{
+    border:2px solid purple;
+    background-color: whitesmoke;
+    color: purple;
+}
+@media only screen and (max-width: 700px) {
+    #title-bar{
+        position: relative;
+        width:100%;
+        top:50px;
+        font-size: 36px;
+        text-align: center;
+        margin:0px;
+    }
+    #correct-img{
+        position: relative;
+        width:60%;
+        height:auto;
+    }
+    #content-block{
+        font-size:20px;
+    }
 }
